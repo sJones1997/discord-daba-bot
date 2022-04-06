@@ -16,7 +16,7 @@ module.exports = {
             if(user){
                 await interaction.reply(`Sorry, <@${user.id}> did anybody ask?`);
             } else {
-                await interaction.reply(`Sorry, did anybody fucking ask?`);
+                await interaction.reply(`Sorry, did anybody ask?`);
             }
         }
 	},
